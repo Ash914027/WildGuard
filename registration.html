@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Wildguard - Donate Today!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>🌿 Support Wildguard - Donate Today! 🌍</h1>
+            <form>
+                <label for="donation-type">Donation Type:</label>
+                <select id="donation-type" name="donation-type">
+                    <option value="one-time">💵 One-Time Donation</option>
+                    <option value="recurring">🔄 Recurring Donation</option>
+                </select>
+
+                <label for="donation-amount">Donation Amount (USD):</label>
+                <input type="number" id="donation-amount" name="donation-amount" placeholder="Enter amount" required>
+
+                <label for="payment-method">Payment Method:</label>
+                <select id="payment-method" name="payment-method">
+                    <option value="credit-card">💳 Credit Card</option>
+                    <option value="paypal">🅿️ PayPal</option>
+                </select>
+
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label>
+                    <input type="checkbox" name="anonymous" value="yes"> 🤫 Donate anonymously
+                </label>
+
+                <button type="submit">✅ Submit Donation</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
